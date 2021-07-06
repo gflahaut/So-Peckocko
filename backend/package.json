@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "launch": "nodemon server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "mongodb": "^3.6.9",
+    "mongoose": "^5.12.14",
+    "mongoose-unique-validator": "^2.0.3",
+    "multer": "^1.4.2",
+    "nocache": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0"
+  }
+}
