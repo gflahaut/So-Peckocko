@@ -1,4 +1,12 @@
+node_modules
 /node_modules
 npm-debug.log
 .DS_Store
 /*.env
+*.pyc
+__pycache__
+env/
+app.db
+fbapp/test/*.db
+geckodriver.log
+.cache
